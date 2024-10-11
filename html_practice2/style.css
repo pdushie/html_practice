@@ -1,4 +1,17 @@
+html{
+    background-color: gray;
+}
+
 body {
     /*CSS here*/
     background-color: blanchedalmond;
+    max-width: 75%;
+    /* margin-left:auto;
+    margin-right: auto; */
+    margin: auto;
+    box-shadow: rgba(160,200,25,0.6) 1px 1px 1px;
+}
+
+h1 {
+    text-shadow: rgba(160,200,25,0.6) -1px -1px 1px;
 }

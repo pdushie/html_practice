@@ -1,0 +1,28 @@
+#article1 {
+    float: left;
+    width:40%;
+    background-color: aqua;
+    padding-right: 2;
+    display:hidden;
+   
+}
+
+#article2 {
+    float: left;
+    width:40%;
+    background-color: lightblue;
+}
+
+
+footer {
+    clear:both;
+}
+
+html {
+    background-color: grey;
+}
+
+body {
+    background-color: papayawhip;
+    
+}
