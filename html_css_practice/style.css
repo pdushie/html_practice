@@ -1,18 +1,22 @@
 /*============================================
 Style for all devices goes here
 ==============================================*/
-nav#topnav {
-    display: flex;
-    flex-direction: row;
-    align-items:center;
+
+#navbar_items {
+    background-color:rgb(104, 101, 101);
+    list-style-type: none;
 }
 
-nav#topnav ul li{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#navbar_items li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 33px;
+    padding: 8px;
+}
 
-
+#navbar_items li a:hover {
+    background-color: black;
 }
 
 /*============================================
@@ -20,13 +24,13 @@ Style for Desktop and tablets goes here
 ==============================================*/
 @media screen and (min-width: 481px){
     html {
-        background-image: linear-gradient(to bottom right, rgb(250, 148, 148), rgb(255, 255, 255));
+        background-image: linear-gradient(to bottom right, #186172, rgb(255, 255, 255));
         background-repeat: no-repeat;
         background-image: re;
     }
     
     body {
-        background-color: gainsboro;
+        background-color: #dae6bd;
     }
 }
 
