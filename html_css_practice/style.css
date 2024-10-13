@@ -2,22 +2,10 @@
 Style for all devices goes here
 ==============================================*/
 
-#navbar_items {
-    background-color:rgb(104, 101, 101);
-    list-style-type: none;
-}
 
-#navbar_items li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 33px;
-    padding: 8px;
-}
 
-#navbar_items li a:hover {
-    background-color: black;
-}
+
+
 
 /*============================================
 Style for Desktop and tablets goes here
@@ -26,11 +14,32 @@ Style for Desktop and tablets goes here
     html {
         background-image: linear-gradient(to bottom right, #186172, rgb(255, 255, 255));
         background-repeat: no-repeat;
-        background-image: re;
     }
     
     body {
         background-color: #dae6bd;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #navbar_items {
+        background-color:#394d51;
+        list-style-type: none;
+    }
+    
+    #navbar_items li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 33px;
+        padding: 8px;
+    }
+    
+    #navbar_items li a:hover {
+        background-color: black;
+    }
+
+    a#navicon {
+        display: none;
     }
 }
 
@@ -45,5 +54,32 @@ Style for Mobile devices goes here
 
     body {
         background-color: #AD901C;
+    }
+
+    #topnav {
+        display: flex;
+    }
+
+    #navbar_items li a {
+        display:block;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        margin:0;
+        padding:0;
+    }
+
+    #topnav img {
+        height: 33px;
+        width: 33px;
+    }
+
+    #navbar_items {
+        display: none;
+    }
+    
+    #navicon:hover+ul {
+        display:block;
     }
 }
