@@ -26,7 +26,7 @@ Layout for every Desktops and Tablets (width: 481px and above)
     }
     
     body {
-        width: 60%;
+        width: 56%;
         margin:auto;
     
     }
@@ -34,6 +34,7 @@ Layout for every Desktops and Tablets (width: 481px and above)
     #navbar_items {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
         height: 33px;
@@ -52,20 +53,38 @@ Layout for every Desktops and Tablets (width: 481px and above)
     #section1 {
         align-self: flex-start;
         width: 100%;
-        border-style: solid;
-        margin-top: 3%;
         text-align: left;
     }
     
+    #site_images {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 22px;
+
+    }
+
+    #site_images img {
+        width: 492px;
+        height: 328px;
+        max-width: 100%;
+        flex-basis: 250px;
+        object-fit: cover;
+        border-radius: 5%;
+      }
+
+      #bottom_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        line-height: 1.5;
+    }
+
+
 }
-
-
-
-
-
-
-
-
 
 
 /*============================================

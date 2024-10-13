@@ -41,6 +41,18 @@ Style for Desktop and tablets goes here
     a#navicon {
         display: none;
     }
+
+    #section_2 ul li {
+        list-style: square;
+        list-style-position: inside;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #394d51;
+        text-align: center;
+        color: white;
+    }
 }
 
 
@@ -48,12 +60,12 @@ Style for Desktop and tablets goes here
 Style for Mobile devices goes here
 ==============================================*/
 @media screen and (max-width: 480px){
-    html {
-        background-color: #1C39AD;
-    }
+    /* html {
+        background-color: #394d51;
+    } */
 
     body {
-        background-color: #AD901C;
+        background-color: #394d51;
     }
 
     #topnav {
